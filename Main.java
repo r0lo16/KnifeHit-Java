@@ -26,5 +26,13 @@ public class Main {
         
         // Wyświetlamy okno
         window.setVisible(true);
+
+
+        window.setLocationRelativeTo(null);
+            window.setVisible(true);
+
+        // DODAJ TĘ LINIĘ NA KOŃCU:
+        gamePanel.startGame(); 
+           
     }
 }
